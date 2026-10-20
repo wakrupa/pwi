@@ -1,0 +1,13 @@
+ssh localhost
+exit
+ssh-keygen -t ecdsa
+ls ~/.ssh
+ssh-copy-id localhost
+ssh localhost
+exit
+ssh lab110-20
+exit
+ls ~/.ssh
+cat ~/.ssh/known_hosts
+cat ~/.ssh/authorized_keys
+cat ~/.ssh/id_ecdsa.pub
