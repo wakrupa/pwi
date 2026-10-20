@@ -1,0 +1,6 @@
+mkdir cwiczenie1
+cd cwiczenie1
+seq -w 0 10 1000 | sed 's/^/plik/' | xargs touch
+ls
+ls plik??4?
+rm plik??4?
