@@ -1,0 +1,4 @@
+apt-get moo > moo.txt
+mv moo.txt oo
+head -n 2 oo
+yes `head -n 2 oo | tail -n 1`
