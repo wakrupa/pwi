@@ -1,0 +1,6 @@
+whoami
+id
+groups
+id root
+touch plik
+ls -l plik
