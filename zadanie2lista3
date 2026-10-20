@@ -1,0 +1,3 @@
+cat /etc/passwd
+who
+who -b
